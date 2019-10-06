@@ -1,0 +1,22 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="ChatRoom:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/ChatRoom_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="ChatRoom/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="ChatRoom" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="file-copy" path="E:/jar包/c3p0-0.9.1.2.jar" />
+          <element id="file-copy" path="E:/jar包/commons-beanutils-1.8.3.jar" />
+          <element id="file-copy" path="E:/jar包/commons-dbutils-1.4.jar" />
+          <element id="file-copy" path="E:/jar包/commons-logging-1.1.1.jar" />
+          <element id="file-copy" path="E:/jar包/jstl.jar" />
+          <element id="file-copy" path="E:/jar包/standard.jar" />
+          <element id="file-copy" path="E:/mysql-connector-java-8.0.16/mysql-connector-java-8.0.16.jar" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
